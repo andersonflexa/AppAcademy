@@ -1,0 +1,63 @@
+/* Your code here */
+
+.section-bar {
+    max-width: 1400px;
+    padding: 0 40px;
+}
+
+.interests-bar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+    margin-top: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    column-gap: 8px;
+}
+
+.interests-bar__image {
+    max-width: 100%;
+    padding: 20px 0;
+
+}
+
+.interests-bar-sun-box {
+    border-left: 1px solid lightgray;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+.interests-bar__headline {
+    font-weight: bold;
+    padding: 10px 0 5px 0;
+}
+
+.interests-bar__story {
+    text-align: left;
+}
+
+.interests-bar-stock-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 8px;
+    padding: 20px 0;
+
+}
+
+.interests-bar__price {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+.interests-bar-text-box {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+.interests-bar-box {
+    margin: 10px 0;
+    border-right: 1px solid lightgray;
+}

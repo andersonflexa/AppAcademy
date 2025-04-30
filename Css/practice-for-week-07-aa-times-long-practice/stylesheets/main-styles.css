@@ -1,0 +1,26 @@
+@import url("reset.css");
+@import url("global.css");
+
+@import url("components/gear-dropdown.css");
+@import url("components/interest-links.css");
+@import url("components/main-content.css");
+@import url("components/main-nav.css");
+@import url("components/masthead.css");
+@import url("components/search-modal.css");
+
+@media (max-width: 1200px) {
+    .article4,
+    .article5,
+    .other_articles {
+      display: none;
+    }
+    .primary-column {
+      grid-column: 1 / -1; /* Make the primary column span the entire width */
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .interests-bar {
+      display: none;
+    }
+  }
